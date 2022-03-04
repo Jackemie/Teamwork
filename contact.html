@@ -1,0 +1,41 @@
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nous contacter</title>
+  <link rel="stylesheet" href="contact.css ">
+</head>
+<body>
+  <section class="page">
+    <!-- Barre de navigation -->
+    <nav class="menu-nav">
+   <ul>
+       <li class="btn">
+           <a href="index.html">Acceuil</a>
+       </li> 
+       <li class="btn">
+           <a href="equipe.html">Notre équipe</a>
+       </li>
+
+    </ul>
+
+    <div class="container">
+      <div style="text-align:center">
+        <h2>Nous contacter</h2>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="https://cdn-icons-png.flaticon.com/512/1803/1803581.png" style="width:100%">
+        </div>
+        <div class="column">
+          <form id="contact-form" method="post" action="contact.php">
+            <label for="fname">Prénom</label>
+            <input type="text" id="name" name="firstname" placeholder="Votre Prénom">
+            <label for="lname">Adresse Mail</label>
+            <input type="text" id="email" name="email" placeholder="Votre adresse maill">
+            <label for="subject">Sujet</label>
+            <textarea id="subject" name="subject" placeholder="Votre requete" style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+</body>
+</html>

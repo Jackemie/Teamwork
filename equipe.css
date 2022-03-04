@@ -1,0 +1,25 @@
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    position:sticky;
+    top: 0;
+    background-color: #141414;
+    padding: 10px 0px;
+  }
+  
+  nav.menu-nav ul li.btn{
+      display: inline-block;
+      list-style-type: none;
+  }
+  nav.menu-nav ul li.btn a{
+      color: white;
+      background-color: purple;
+      text-decoration: none;
+      padding:  10px;
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
+  nav.menu-nav ul li.btn:hover a{
+      color: rebeccapurple;
+      background-color: transparent;
+  }

@@ -1,0 +1,99 @@
+@import url('https://www.cidj.com/sites/default/files/styles/og_image/public/2019-02/developpeur-web.jpg?itok=keR35EfX');
+body{
+  background-color: #141414;
+  background-image: linear-gradient(180deg, rgba(255,255,255,0) ,rgba(17, 0, 26, 0.45));
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  min-width: 300px;
+  max-width: 1500px;
+}
+body .page{
+  margin: 20px 80px;
+}
+/* Barre de navigation */
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  position:sticky;
+  top: 0;
+  background-color: #141414;
+  padding: 10px 0px;
+}
+
+nav.menu-nav ul li.btn{
+    display: inline-block;
+    list-style-type: none;
+}
+nav.menu-nav ul li.btn a{
+    color: white;
+    background-color: purple;
+    text-decoration: none;
+    padding:  10px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+nav.menu-nav ul li.btn:hover a{
+    color: rebeccapurple;
+    background-color: transparent;
+}
+
+/* Fin de la barre de navigation*/
+
+
+h1{ 
+  background: url('https://cdn-icons-png.flaticon.com/512/1803/1803581.png');
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+  background-position: center;
+  text-align: center;
+  font-size: 60px;
+  padding: 150px;
+  transition: transform 2.5s;
+  font-family: 'Abril Fatface';
+  font-weight: 100;
+  letter-spacing: 5px;
+  margin: 0;
+  cursor: pointer;
+}
+
+h1 span {
+  display: inline-block;
+}
+
+h2 {
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+/* Pied de page */
+footer{
+  background-color: #1a1a1a;
+  padding: 25px 100px;
+  color:#828282;
+}
+footer .colonnes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* Fin du pied de page */
+
+@media screen and (max-width: 640px){
+  body .page{
+    margin: 10px;
+  }
+  nav .onglets{
+    display:none;
+  }
+  header{
+    margin-top: 20px;
+    background-size: 250px 250px;
+  }
+  header h1{
+    font-size: 30px;
+    padding: 100px;
+  }
+}
